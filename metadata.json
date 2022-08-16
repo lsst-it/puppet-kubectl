@@ -2,7 +2,7 @@
   "name": "lsst-kubectl",
   "version": "0.1.0",
   "author": "AURA/LSST/Rubin Observatory",
-  "summary": "kubectl module",
+  "summary": "install kubectl",
   "license": "Apache-2.0",
   "source": "https://github.com/lsst-it/puppet-kubectl",
   "dependencies": [
@@ -11,8 +11,12 @@
       "version_requirement": ">= 5.0.0 < 9.0.0"
     },
     {
-      "name": "puppetlabs/yum_core",
-      "version_requirement": ">= 1.0.0 < 2.0.0"
+      "name": "puppet/archive",
+      "version_requirement": ">= 6.0.0 < 7.0.0"
+    },
+    {
+      "name": "puppet/alternatives",
+      "version_requirement": ">= 4.0.0 < 5.0.0"
     }
   ],
   "operatingsystem_support": [
@@ -20,14 +24,16 @@
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
         "7",
-        "8"
+        "8",
+        "9"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "7",
-        "8"
+        "8",
+        "9"
       ]
     },
     {
@@ -39,13 +45,15 @@
     {
       "operatingsystem": "AlmaLinux",
       "operatingsystemrelease": [
-        "8"
+        "8",
+        "9"
       ]
     },
     {
       "operatingsystem": "Rocky",
       "operatingsystemrelease": [
-        "8"
+        "8",
+        "9"
       ]
     }
   ],
@@ -54,8 +62,5 @@
       "name": "puppet",
       "version_requirement": ">= 6.0.0 < 8.0.0"
     }
-  ],
-  "pdk-version": "1.18.1",
-  "template-url": "https://github.com/puppetlabs/pdk-templates#1.18.1",
-  "template-ref": "tags/1.18.1-0-g3d2e75c"
+  ]
 }
