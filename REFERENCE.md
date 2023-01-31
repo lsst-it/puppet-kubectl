@@ -18,12 +18,12 @@ Install kubectl binary
 
 The following parameters are available in the `kubectl` class:
 
-* [`version`](#version)
-* [`checksum`](#checksum)
-* [`checksum_type`](#checksum_type)
-* [`base_path`](#base_path)
+* [`version`](#-kubectl--version)
+* [`checksum`](#-kubectl--checksum)
+* [`checksum_type`](#-kubectl--checksum_type)
+* [`base_path`](#-kubectl--base_path)
 
-##### <a name="version"></a>`version`
+##### <a name="-kubectl--version"></a>`version`
 
 Data type: `String`
 
@@ -31,7 +31,7 @@ kubectl release version
 
 Default value: `'1.24.3'`
 
-##### <a name="checksum"></a>`checksum`
+##### <a name="-kubectl--checksum"></a>`checksum`
 
 Data type: `String`
 
@@ -39,7 +39,7 @@ Artifact checksum string
 
 Default value: `'8a45348bdaf81d46caf1706c8bf95b3f431150554f47d444ffde89e8cdd712c1'`
 
-##### <a name="checksum_type"></a>`checksum_type`
+##### <a name="-kubectl--checksum_type"></a>`checksum_type`
 
 Data type: `String`
 
@@ -47,7 +47,7 @@ The digest algorithm used for the checksum string.
 
 Default value: `'sha256'`
 
-##### <a name="base_path"></a>`base_path`
+##### <a name="-kubectl--base_path"></a>`base_path`
 
 Data type: `Stdlib::Absolutepath`
 
