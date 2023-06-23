@@ -4,7 +4,20 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v0.2.0](https://github.com/lsst-it/puppet-kubectl/tree/v0.2.0) (2023-01-30)
+## [v1.0.0](https://github.com/lsst-it/puppet-kubectl/tree/v1.0.0) (2023-06-23)
+
+[Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v0.2.0...v1.0.0)
+
+**Breaking changes:**
+
+- \(plumbing\) drop support for puppet6 [\#8](https://github.com/lsst-it/puppet-kubectl/pull/8) ([jhoblitt](https://github.com/jhoblitt))
+
+**Implemented enhancements:**
+
+- allow puppet/archive 7.x [\#12](https://github.com/lsst-it/puppet-kubectl/pull/12) ([jhoblitt](https://github.com/jhoblitt))
+- add support for puppet8 [\#9](https://github.com/lsst-it/puppet-kubectl/pull/9) ([jhoblitt](https://github.com/jhoblitt))
+
+## [v0.2.0](https://github.com/lsst-it/puppet-kubectl/tree/v0.2.0) (2023-01-31)
 
 [Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v0.1.0...v0.2.0)
 
