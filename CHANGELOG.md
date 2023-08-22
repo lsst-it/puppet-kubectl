@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v1.2.0](https://github.com/lsst-it/puppet-kubectl/tree/v1.2.0) (2023-08-22)
+
+[Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v1.1.0...v1.2.0)
+
+**Implemented enhancements:**
+
+- allow stdlib 9.x [\#19](https://github.com/lsst-it/puppet-kubectl/pull/19) ([jhoblitt](https://github.com/jhoblitt))
+
 ## [v1.1.0](https://github.com/lsst-it/puppet-kubectl/tree/v1.1.0) (2023-08-22)
 
 [Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v1.0.0...v1.1.0)
