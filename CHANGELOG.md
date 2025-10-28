@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v1.3.0](https://github.com/lsst-it/puppet-kubectl/tree/v1.3.0) (2025-10-28)
+
+[Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v1.2.0...v1.3.0)
+
+**Implemented enhancements:**
+
+- \(metadata.json\) Bump archiver to include v8 [\#39](https://github.com/lsst-it/puppet-kubectl/pull/39) ([badenerb](https://github.com/badenerb))
+- Update dependency voxpupuli-test to v13 [\#37](https://github.com/lsst-it/puppet-kubectl/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/labeler action to v6 [\#34](https://github.com/lsst-it/puppet-kubectl/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v5 [\#32](https://github.com/lsst-it/puppet-kubectl/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.2.0](https://github.com/lsst-it/puppet-kubectl/tree/v1.2.0) (2024-10-04)
 
 [Full Changelog](https://github.com/lsst-it/puppet-kubectl/compare/v1.1.0...v1.2.0)
